@@ -2,6 +2,6 @@
 Practical work 2. In the discipline of Cross-platform Application Development
 
 ![Screenshot](screenshot.png)
-![Screenshot](main.png)
+![Screenshot](Main.png)
 
 Teacher: https://github.com/proffix4
