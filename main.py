@@ -32,16 +32,16 @@ class Main(QWidget):
             else:
                 answer = 6 * a * b - 5 * x
             self.label_answer.setText('Ответ: ' + str(format(answer, '.2f')))
+            self.label_answer.setStyleSheet("background: rgb(0, 255, 0,0.5);")
         except:
-            self.label_answer.setText(
-                'Ошибка!')
-
+            self.label_answer.setText('Ошибка!')
+            self.label_answer.setStyleSheet('background: rgb(255, 0, 0, 0.5);')
     def clear(self):
         self.lineEdit_a.setText('')
         self.lineEdit_b.setText('')
         self.lineEdit_x.setText('')
         self.label_answer.setText('Ответ: ')
-
+        self.label_answer.setStyleSheet('')
 
 app = QApplication(sys.argv)
 window = Main()
